@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/pcsalvo/aviones.git" }
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
+
 
 ruby '2.7.3'
 

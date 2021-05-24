@@ -1006,6 +1006,16 @@
     webpack-cli "^3.3.12"
     webpack-sources "^1.4.3"
 
+"@react-leaflet/core@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@react-leaflet/core/-/core-1.1.0.tgz#389b2b373f1da4caeb3c4cf6f33d84561c58d504"
+  integrity sha512-zFxMHgfjCi7khRVB7o7H8NoJl36NaezvfcaeEurVXx22lAGHFlTHiSuLOGA4tOiHj+Ep+Lo3uwUGJ3YM9BGkHg==
+
+"@types/geojson@*":
+  version "7946.0.7"
+  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.7.tgz#c8fa532b60a0042219cdf173ca21a975ef0666ad"
+  integrity sha512-wE2v81i4C4Ol09RtsWFAqg3BUitWbHSpSlIo+bNdsCJijO9sjme+zm+73ZMCa/qMC8UEERxzGbvmr1cffo2SiQ==
+
 "@types/glob@^7.1.1":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.3.tgz#e6ba80f36b7daad2c685acd9266382e68985c183"
@@ -1018,6 +1028,13 @@
   version "7.0.7"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.7.tgz#98a993516c859eb0d5c4c8f098317a9ea68db9ad"
   integrity sha512-cxWFQVseBm6O9Gbw1IWb8r6OS4OhSt3hPZLkFApLjM8TEXROBuQGLAH2i2gZpcXdLBIrpXuTDhH7Vbm1iXmNGA==
+
+"@types/leaflet@^1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@types/leaflet/-/leaflet-1.7.0.tgz#3700fb5d29a8214fbd496565b08ec28e40cee808"
+  integrity sha512-ltv5jR+VjKSMtoDkxH61Rsbo0zLU7iqyOXpVPkAX4F+79fg2eymC7t0msWsfNaEZO1FGTIQATCCCQe+ijWoicg==
+  dependencies:
+    "@types/geojson" "*"
 
 "@types/minimatch@*":
   version "3.0.4"
@@ -2487,6 +2504,11 @@ detect-node@^2.0.4:
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.1.0.tgz#c9c70775a49c3d03bc2c06d9a73be550f978f8b1"
   integrity sha512-T0NIuQpnTvFDATNuHN5roPwSBG83rFsuO+MXXH9/3N1eFbn4wcPjttvjMLEPWJ0RGUYgQE7cGgS3tNxbqCGM7g==
 
+diesal@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/diesal/-/diesal-1.0.2.tgz#a79b75d920a6747d4fae9abc529450723d61cb90"
+  integrity sha512-vGKXq/bB/eNI4L2fMj8jH9wpQ05ijUReLmfLAZRNeXVqOaC4NfdpQvoIZrazEbA5u9MF3R8JYloUUQTp3Q/yvA==
+
 diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
@@ -3922,6 +3944,18 @@ last-call-webpack-plugin@^3.0.0:
   dependencies:
     lodash "^4.17.5"
     webpack-sources "^1.1.0"
+
+leaflet.timeline@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/leaflet.timeline/-/leaflet.timeline-1.4.3.tgz#2d33a7bf9e13371279ccf02bf14353d422419bb8"
+  integrity sha512-usv9Om4MVSClWQa8dY8jkCxmTrSDckEXhwqr1067J9tmU4LNLx/Wqy/IW4+XhYtdXvKZluPIGhKE6nPW+uSr0A==
+  dependencies:
+    diesal "^1.0.2"
+
+leaflet@^1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.7.1.tgz#10d684916edfe1bf41d688a3b97127c0322a2a19"
+  integrity sha512-/xwPEBidtg69Q3HlqPdU3DnrXQOvQU/CCHA1tcDQVzOwm91YMYaILjNp7L4Eaw5Z4sOYdbBz6koWyibppd8Zqw==
 
 lines-and-columns@^1.1.6:
   version "1.1.6"
@@ -5636,6 +5670,13 @@ react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-leaflet@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-leaflet/-/react-leaflet-3.2.0.tgz#8d5d05beab3f9e52665738ad737bb7b1da99f30b"
+  integrity sha512-eHVqoRGjW8T9GxLt7jyTKP3BDQ7XQ5AD+tc/zkbaABn1dbmREDy8GojNcYjZQa3QFLQoOLQMcUC1PTtzytZpUA==
+  dependencies:
+    "@react-leaflet/core" "^1.1.0"
 
 react-router-dom@^5.2.0:
   version "5.2.0"
